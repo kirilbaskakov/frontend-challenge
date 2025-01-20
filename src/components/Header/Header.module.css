@@ -1,0 +1,27 @@
+.header {
+    background-color: #2196F3;
+}
+
+.links {
+    max-width: 1480px;
+    padding: 0 4rem; 
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    display: block;
+    padding: 1.25rem;
+    color: #FFFFFFB2;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.link.active, .link:hover {
+    color: #fff;
+    background-color: #1E88E5;
+}
