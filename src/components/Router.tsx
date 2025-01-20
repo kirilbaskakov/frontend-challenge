@@ -17,6 +17,7 @@ const router = createBrowserRouter(
       <Route path="/favorites" element={<FavoritesPage />} />
     </Route>,
   ),
+  { basename: import.meta.env.VITE_BASENAME },
 );
 const Router = () => {
   return <RouterProvider router={router} />;
